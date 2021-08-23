@@ -25,8 +25,3 @@ Route::get('tag/{tag}', [PostController::class, 'tag'])->name('posts.tag');
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
-
-Route::get('info', function () {
-    phpinfo();
-});
-

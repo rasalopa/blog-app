@@ -35,8 +35,8 @@
             <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <!-- Logo -->
                 <a href="/" class="flex-shrink-0 flex items-center">
-                    <img class="block h-9 w-auto lg:hidden" src="http://blog.test/rasalopa/rule.png" alt="rasalopa's BLOG">
-                    <img class="block h-9 w-auto hidden lg:block h-5" src="http://blog.test/rasalopa/rule.png" alt="rasalopa's BLOG">
+                    <img class="block h-9 w-auto lg:hidden" src="/rasalopa/rule.png" alt="rasalopa's BLOG">
+                    <img class="block h-9 w-auto hidden lg:block h-5" src="/rasalopa/rule.png" alt="rasalopa's BLOG">
                 </a>
                 <!-- Menú -->
                 <div class="hidden sm:block sm:ml-6">

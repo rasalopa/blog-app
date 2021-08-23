@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="blog@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.20">
-    <root id="1">
-      <ServerVersion>5.7.24</ServerVersion>
-      <DefaultEngine>InnoDB</DefaultEngine>
-      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
-      <DefaultCasing>lower/lower</DefaultCasing>
-    </root>
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.23">
+    <root id="1"/>
     <schema id="2" parent="1" name="blog">
       <Current>1</Current>
       <Collation>latin1_swedish_ci</Collation>
@@ -726,9 +721,6 @@
     </collation>
     <user id="227" parent="1" name="blogusr">
       <Host>localhost</Host>
-      <ObjectGrants>ALL PRIVILEGES|blog
-ALL PRIVILEGES|simpleblog
-</ObjectGrants>
     </user>
     <table id="228" parent="2" name="categories">
       <Collation>utf8mb4_unicode_ci</Collation>

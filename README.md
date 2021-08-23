@@ -25,7 +25,7 @@ mv .env.example .env
 php artisan key:generate
 ````
 
-Corremos las migraciones
+Corremos las migraciones con los seeders
 ````
-php artisan migrate
+php artisan migrate:fresh --seed
 ````

@@ -23,8 +23,8 @@ class DatabaseSeeder extends Seeder
         Storage::deleteDirectory('posts');
         Storage::makeDirectory('posts');
 
-        Category::factory(4)->create();
-        Tag::factory(8)->create();
+        Category::factory(10)->create();
+        Tag::factory(20)->create();
         $this->call(PostSeeder::class);
     }
 }
